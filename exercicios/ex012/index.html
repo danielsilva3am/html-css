@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo esta hospedado no meu servidor.</p>
+    <!--
+    <video src="midia/happy-video.mp4" width="500" controls></video>
+    -->
+    <video width="300" poster="imagens/foto-p.png" controls>
+        <source src="midia/happy-video.mp4" type="video/mp4">
+        <source src="midia/happy-video.webm" type="video/webm">
+        <source src="midia/happy-video.mp3" type="audio/mpeg">
+        <p>
+            O seu navegador não é compativel com esse vídeo.
+        </p>
+    </video>
+
+    <h1>Este vídeo esta hospedado no Youtube.</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/pc_5tVU0dr0?si=0wVhU5-WygOWhn0t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+</html>

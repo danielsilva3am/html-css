@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: antiquewhite;
+        }
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: gainsboro;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 30px;
+        }
+        article{
+            background-color: aquamarine;
+        }
+        article > aside{
+            background-color: aqua;
+        }
+        footer{
+            background-color: burlywood;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        nav {
+            background-color: yellow;
+            padding: 5px;
+            box-shadow: 1px 1px 1px black;
+        }
+        nav > a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        div#bola{
+            margin: 10px;
+            width: 50px;
+            height: 50px;
+            background-color: pink;
+            border-radius: 50%;
+        }
+        
+    </style>
+    <title>Tag de Agrupamento</title>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum eligendi qui, nostrum blanditiis animi ex totam debitis maxime repellat autem, sint accusamus quidem ipsum aspernatur obcaecati omnis! Sint, laudantium illo.
+            </p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique accusamus debitis eum tempora cupiditate in cum omnis voluptate delectus rem, culpa, ipsam vitae dignissimos labore eos temporibus architecto, harum id?
+                </p>
+                <aside>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda unde dolor placeat quas! Harum doloribus est odio animi. Voluptas ipsam voluptate alias quis officia dolorem aperiam eveniet reiciendis nobis fugit!
+        
+                    </p>
+                </aside>
+            </article>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem fuga ea cum possimus maxime ratione nam magni vitae? Accusamus, reprehenderit culpa aperiam asperiores animi ab delectus maiores cum voluptatum non.
+
+        </p>
+    </footer>
+
+    <div id="bola"></div>
+</body>
+</html>

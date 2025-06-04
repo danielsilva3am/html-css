@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        a{
+            color: brown;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: blueviolet;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: red;
+        }
+        a:active{
+            color: pink;
+        }
+        a::before{
+            content: '[#] ';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(205, 50, 71);
+        }
+        a::after{
+            content: ' [<=]';
+            text-decoration: none;
+            font-weight: normal;
+            color: yellowgreen;
+        }
+        
+    </style>
+    <title>Personalizando LINKS</title>
+</head>
+<body>
+    <h1> PERSONALIZANDO LINKS </h1>
+    <ul>
+        
+        <li><a href="http://www.Google.com.br" target="_blank">Google</a></li>
+        <li><a href="http://www.Youtube.com.br">Youtube</a></li>
+        <li><a href="http://www.Facebook.com.br">Facebook</a></li>
+    </ul>
+
+</body>
+</html>

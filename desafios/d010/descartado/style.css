@@ -1,0 +1,67 @@
+@charset 'UTF-8';
+
+body{
+    background-color: #FFE63F;
+    
+}
+header{
+    width: 100%;
+    background-color: white;
+
+    /*outline: 10px  solid white;
+    border: 10px solid white;
+    border: 0px;
+    text-align: center;
+    padding: 0px; 
+    margin: 0px 0px 10px 0px;*/
+    
+}
+nav{
+    background-color: #BC9B5D;
+    outline: 10px  solid #BC9B5D;
+    border: 10px solid #BC9B5D;
+    border: 0px;
+    padding: 0px; 
+    margin: 0px 0px 0px 0px;
+}
+section#base{
+    /* BOX-LEVEL */
+background-color: aquamarine;
+height: 100%;
+width: 50%;
+
+/*border-width: 5px;
+border-style: solid;
+border-color: violet; 
+*/
+border: 5px solid violet;
+
+/* cima, direita, baixo e esquerda
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+*/
+padding: 10px 10px 10px 10px;
+/*ou apenas padding: 10px; já que todos são iguais
+como também se for padding: 10px 20px; ele vai colocar
+10 em cima e em baixo, e 20 na esquerda e na direita*/
+
+/* cima, direita, baixo e esquerda
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+*/
+margin: 10px auto 10px auto;
+/*ou apenas margin: 10px; se todos são iguais*/
+
+/*outline: 5px;
+outline-color: chartreuse;
+outline-style: dashed;*/
+outline: 5px solid red ;
+
+}
+section.sub{
+    background-color: whitesmoke;
+}
